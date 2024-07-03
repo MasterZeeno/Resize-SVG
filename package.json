@@ -1,0 +1,33 @@
+{
+  "name": "resize-svg",
+  "description": "Resize SVG vector graphic image files using SVGO library.",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "svg",
+    "resize",
+    "svgo"
+  ],
+  "author": {
+    "name": "Zeeno Liev",
+    "email": "zeenoliev@gmail.com",
+    "url": "https://github.com/masterzeeno"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "parse-svg-path": "^0.1.2",
+    "scale-svg-path": "^0.0.1",
+    "serialize-svg-path": "^0.1.0",
+    "svgo": "^3.3.2"
+  },
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
+  }
+}
